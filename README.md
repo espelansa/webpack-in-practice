@@ -1,1 +1,1 @@
-# webpack-in-practice
+# webpack-in-practise
