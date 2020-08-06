@@ -13,6 +13,7 @@ module.exports = {
     filename: '[name].js'
   },
   mode: 'production',
+  watch: true,
   module: {
     rules: [
       {
@@ -36,8 +37,17 @@ module.exports = {
       },
       {
         test: /.(png|jpg|jpeg|gif)$/,
-        use: 'file-loader'
+        use: [{
+          loader: 'url-loader',
+          options: {
+            limit: 10240
+          }
+        }]
       },
+      {
+        test: /.(woff2|eot|ttf|otf)$/,
+        use: 'file-loader'
+      }
     ]
   }
 }

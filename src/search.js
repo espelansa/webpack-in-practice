@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './search.less'
-import CQ from './images/CQ.jpg';
+import bg from './images/bg.png';
 
 class Search extends React.Component {
   render() {
     return <div className="search-text">
-      Night View of CQ
+      Search Text
       <div style={{
         width: 600
       }}>
-        <img src={CQ} />
+        <img src={bg} />
       </div>
     </div>;
   }

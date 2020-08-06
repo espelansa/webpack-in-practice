@@ -1,14 +1,12 @@
 @font-face {
   font-family: "Recursive-VariableFont";
-  src: url('./font/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf');
+  src: url('font/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf');
 }
-
 .search-text {
   font-size: 20px;
   color: blueviolet;
   font-family: 'Recursive-VariableFont';
 }
-
 img {
   width: 100%;
   height: auto;
